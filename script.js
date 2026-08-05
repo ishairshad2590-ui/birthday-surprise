@@ -46,11 +46,11 @@ document.getElementById("letterBtn").onclick = function(){
 document.getElementById("main").style.display="none";
 
 document.getElementById("letter").style.display="block";
-
-};
 document.getElementById("letter").scrollIntoView({
 behavior:"smooth"
 });
+};
+
 for(let i=0;i<40;i++){
 
 let s=document.createElement("div");
